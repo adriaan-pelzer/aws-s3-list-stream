@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-list-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "S3 listObjects as a highland stream",
   "main": "stream.js",
   "scripts": {
