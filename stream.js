@@ -15,4 +15,4 @@ module.exports = R.curry ( function ( s3Parms, listObjectParms ) {
     };
 
     return objectStream ( listObjectParms );
-};
+} );
