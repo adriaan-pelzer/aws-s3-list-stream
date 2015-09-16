@@ -1,0 +1,32 @@
+{
+  "name": "aws-s3-list-stream",
+  "version": "0.0.1",
+  "description": "S3 listObjects as a highland stream",
+  "main": "stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adriaan-pelzer/aws-s3-list-stream.git"
+  },
+  "keywords": [
+    "AWS",
+    "S3",
+    "highland",
+    "stream",
+    "listObjects"
+  ],
+  "author": "Adriaan Pelzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaan-pelzer/aws-s3-list-stream/issues"
+  },
+  "homepage": "https://github.com/adriaan-pelzer/aws-s3-list-stream#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.1",
+    "highland": "^2.5.1",
+    "highland-wrapcallback": "0.0.1",
+    "ramda": "^0.17.1"
+  }
+}
